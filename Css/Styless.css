@@ -100,3 +100,17 @@
     left: 389px;    
 }
 
+.api{
+    z-index: 10;
+    position: fixed;
+    top: 865px;
+    right: 0;
+
+}
+
+.api2{
+    z-index: 9;
+    position: fixed;
+    top: 872px;
+    right: 7px;
+}
