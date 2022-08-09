@@ -1,0 +1,182 @@
+.prueba{
+    width: 100%;
+    height: 470px;
+    background: #083607;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(134, 85%, 8%, 0.038), hsla(134, 85%, 8%, 0.022)), url(/Assets/Images/FondoMeso.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(134, 85%, 8%, 0.807), hsla(134, 85%, 8%, 0.637)), url(/Assets/Images/FondoMeso.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 1300px;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.campus{
+    font-weight: 700;
+    font-size: 35pxs;
+    font-family: Open Sans,Arial,sans-serif ;
+    line-height: 35px;
+    text-size-adjust: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.galeria{
+    font-family: Open Sans,Arial,sans-serif ;
+    text-decoration: none;
+    
+    text-align: center;
+    margin-top: 90px;
+    font-size: 25px;
+    font-weight: 10;
+    color:white;
+}
+
+.tour{
+    font-family: Open Sans,Arial,sans-serif ;
+    text-align: center;
+   
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight:lighter;
+    color:white;
+}
+
+.video{
+    font-family: Open Sans,Arial,sans-serif ;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+    color:white;
+}
+
+#galeria .galeria:hover{
+    transform: scale(1.15);
+}
+
+ #galeria .galeria{
+    transition: all 300ms;
+    position: relative;
+} 
+
+#tour .tour:hover{
+    transform: scale(1.15);
+}
+
+ #tour .tour{
+    transition: all 300ms;
+    position: relative;
+} 
+
+#video .video:hover{
+    transform: scale(1.15);
+}
+
+#video .video{
+    transition: all 300ms;
+    position: relative;
+} 
+
+
+.quees{
+    font-family: candara; 
+    text-align: center;
+    font-weight:700;
+    font-size: 35px;
+    color: rgb(51, 51, 51) ;
+    position: absolute;
+    bottom: -1048px;
+    left: 0px;
+    right: 0;
+}
+
+
+.queesimg{
+    position: absolute;
+    text-align: center;
+    right: 0px;
+    left: -12px;
+    bottom: -1367px;
+}
+
+.reglamento{
+    font-family: candara; 
+    text-align: center;
+    font-weight:700;
+    
+    font-size: 35px;
+    color: rgb(51, 51, 51) ;
+    position: absolute;
+    bottom: -1453px;
+    left: 0px;
+    right: 0;
+}
+
+.reglamentoImg{
+    position: absolute;
+    bottom: -2005px;
+    left: 187px;
+}
+
+.estatutosImg{
+    text-align: center;
+    position: absolute;
+    bottom: -2005px;
+    left: 15px;
+    right: 0px;
+}
+
+.academicoImg{
+    position: absolute;
+    bottom: -2011px;
+    right: 169px;
+}
+
+
+.ReglamentoTxt{
+    font-family: Open Sans,Arial,sans-serif;
+    color: rgb(51,51,51);
+    font-size: 18.5px;
+    font-weight: 700;
+    line-height: 20px;
+    position: absolute;
+    bottom: -1535px;
+    left: 237px;
+}
+
+.EstatutosTxt{
+    text-align: center;
+    font-family: Open Sans,Arial,sans-serif;
+    color: rgb(51,51,51);
+    font-size: 18.5px;
+    font-weight: 700;
+    line-height: 20px;
+    position: absolute;
+    bottom: -1535px;
+    left: 0px;
+    right: 0px;
+}
+
+
+.AcademicoTxt{
+    text-decoration: none;
+    font-family: Open Sans,Arial,sans-serif;
+    color: rgb(51,51,51);
+    font-size: 18.5px;
+    font-weight: 700;
+    line-height: 20px;
+    position: absolute;
+    bottom: -1533px;
+    right: 217px;
+}

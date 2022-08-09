@@ -1,0 +1,81 @@
+#conteItemsCarrusel{
+   
+    height: 408px;
+    width: 720px;
+    overflow: hidden; 
+}
+
+.itemCarrusel{
+    
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    
+    height: 100%;
+}
+
+.flechasCarrusel{
+    
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; /* Cambiar margenes de las letras */
+}
+
+.carruselPosition2{
+    
+    position: absolute;
+    bottom: -3945px;
+    left: 190px;
+    
+    
+}
+
+
+
+#tarjetaCarrusel-11{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-22{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-33{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-44{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-55{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-66{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-77{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-88{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-99{
+    background-color: rgb(1, 99, 59);
+}
+
+#tarjetaCarrusel-100{
+    background-color: rgb(1, 99, 59);
+}
+

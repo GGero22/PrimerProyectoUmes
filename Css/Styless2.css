@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    
+    max-width: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    font-size: 14.3px;
+    margin-top: 20px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal >li >a {
+    display: block;
+    padding: 15px 16px;
+    color: rgb(3, 99, 59);
+    
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+    background-color: rgb(226, 223, 223);
+}
+
+.menu-vertical{
+    z-index:10;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(253, 253, 253);
+    
+
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    z-index:10;
+    background-color: rgba(201, 201, 201, 0.801);
+}
+
+.menu-vertical li a{
+    z-index:10;
+    display: block;
+    color: rgb(3, 99, 59);
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.form{
+  
+    position: absolute;
+    bottom: -340px;
+    left: 390px;
+  padding: 20px;
+
+  line-height: 30px;
+}
+
+.formInput{
+    background-color: rgb(238, 238, 238);
+    border-bottom-color: rgb(238, 238, 238);
+    border-right-color: rgb(238, 238, 238);
+    border-left-color: rgb(238, 238, 238);
+    border-top-color: rgb(238, 238, 238);
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 0px;
+    border-top-style: solid;
+    font-family:Open Sans,Arial,sans-serif ;
+    text-align: start;
+    width: 525.375px;
+   font-weight: 400;
+   font-size: 14px;
+    padding: 16px;
+    
+}
+
+.formInput2{
+    background-color: rgb(238, 238, 238);
+    border-bottom-color: rgb(238, 238, 238);
+    border-right-color: rgb(238, 238, 238);
+    border-left-color: rgb(238, 238, 238);
+    border-top-color: rgb(238, 238, 238);
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 0px;
+    border-top-style: solid;
+    font-family:Open Sans,Arial,sans-serif ;
+    text-align: start;
+    width: 520.375px;
+   font-weight: 400;
+   font-size: 14px;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   padding-right: 16px;
+   padding-left: 16px;
+   margin-left: 31px;
+   
+    
+}
+
+
+.formInput3{
+    font-family:Open Sans,Arial,sans-serif ;
+    text-align: start;
+    width: 1082px;
+   font-weight: 400;
+   font-size: 14px;
+    
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+   
+
+    background-color: rgb(238, 238, 238);
+    border-bottom-color: rgb(238, 238, 238);
+    border-right-color: rgb(238, 238, 238);
+    border-left-color: rgb(238, 238, 238);
+    border-top-color: rgb(238, 238, 238);
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 0px;
+    border-top-style: solid;
+}
+
+.formtitle{
+    color: rgb(48, 48, 48);
+    font-size: 26px;
+    font-weight:lighter;
+    padding-bottom: 16px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-size-adjust: 100%;
+    line-height: 26px;
+}
+
+.enviarimg{
+position: absolute;
+margin-top: 8px;
+right: 10px;
+}
+/* 
+.inputmove{
+ padding: 0%;
+} */
+
+.peepo{
+    position:absolute;
+    top: 6000px;
+  
+}
+
+
+.color{
+    height: 22px;
+   
+ }

@@ -1,0 +1,102 @@
+ hr{
+   
+    position: absolute;
+    top: 88px;
+} 
+
+.bloque{
+    display: flex;
+    color: black;
+    height: 100px;
+    background-color: FFFFFF;
+    
+}
+
+/* .bloque{
+    text-align: center;
+  background:rgb(0,0,0,0);
+  padding-right: auto;  
+  padding-top: 90px;
+  border-bottom;
+  width: 150;
+  height: 150;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  ;
+  
+  text-size-adjust: 35px;
+  color:black; 
+
+}
+ */
+
+ .fondo1{
+    z-index: -1;
+    position:absolute;
+    top: 151px;
+    right: 281px;
+}
+ 
+.logo2{
+    z-index: -1;
+    position: absolute;
+    top: 212px;
+    left: 571px;
+}
+
+.NuestrasC{
+    position: absolute;
+    top: 576px;
+    left: 530px;
+}
+
+#NuestrasC img:hover{
+    transform: scale(1.15);
+}
+
+ #NuestrasC img{
+    transition: all 300ms;
+    position: relative;
+} 
+
+.font1{
+    font-family: candara; 
+  
+    font-weight:bold;
+    font-size: 30px;
+    color: rgb(51, 51, 51) ;
+    position: absolute;
+    top: 501px;
+    left: 513px;
+}
+.font2{
+    font-family: Open Sans,Arial,sans-serif;
+    font-weight:lighter;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    top: 452px;
+    left: 404px;
+}
+
+.font3{
+    font-family: Open Sans,Arial,sans-serif;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    top: 460px;
+    left: 458px;
+}
+
+.UniversidadMesoamericana{
+    z-index: -1;
+    position: absolute;
+    top: 388px;
+    left: 389px;    
+}
+

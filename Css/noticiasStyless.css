@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Noticias{
+    text-align: center;
+    margin-top: 70px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(51,51,51);
+    line-height: 30px;
+  
+}
+
+.contenedorImagenes{    
+                        
+    display: flex;
+    width: 53%;
+    
+    margin: auto;
+    margin-top: 65px;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.contenedorImagenes .imagen{
+    
+    width: 32%;
+    position: relative;
+    right: 41px;
+    height: 415px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);  
+   
+}
+.contenedorImagenes .imagen2{
+    width: 32%;
+    position: relative;
+   
+    height: 390px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+   
+}
+.contenedorImagenes .imagen3{
+    width: 32%;
+    position: relative;
+    left: 45px;
+    height: 390px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+   
+}
+
+.contenedorImagenes .imagen4{
+    width: 32%;
+    position: relative;
+    top: 55px;
+    right: 41px;
+    height: 397px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+   
+}
+
+.contenedorImagenes .imagen5{
+    width: 32%;
+    position: relative;
+    top: 35px;
+    height: 397px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+    
+}
+
+.contenedorImagenes .imagen6{
+    width: 32%;
+    position: relative;
+    top: 35px;
+    left: 45px;
+    height: 300px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+  
+    }
+
+    .contenedorImagenes .imagen7{
+        width: 32%;
+        position: relative;
+        top: 110px;
+        right: 41px;
+        height: 397px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+      
+        }
+
+        .contenedorImagenes .imagen8{
+            width: 32%;
+            position: relative;
+            top: 110px;
+           
+            height: 515px;
+            margin-bottom: 5px;
+            box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+          
+            }
+
+            .contenedorImagenes .imagen9{
+                width: 32%;
+                position: relative;
+                top: 35px;
+                left: 45px;
+                height: 510px;
+                margin-bottom: 5px;
+                box-shadow: 0px 0px 1px 0px rgb(51,51,51);
+              
+                }
+
+.imagen img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen2 img{
+    width: 100%;
+    height: 52%;
+    object-fit: cover;
+}
+
+.imagen3 img{
+    width: 100%;
+    height: 52%;
+    object-fit: cover;
+}
+
+.imagen4 img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen5 img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen6 img{
+    width: 100%;
+    height: 42%;
+    object-fit: cover;
+}
+
+.imagen7 img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.imagen8 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.imagen9 img{
+    width: 100%;
+    height: 57%;
+    object-fit: cover;
+}
+
+
+
+.overlay{
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    background:  rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1000px){
+    .contenedorImagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .contenedorImagenes{
+        width: 90%;
+    }
+    .contenedorImagenes .imagen{
+        width: 48%;
+    }
+    
+    
+    .contenedorImagenes .imagen2{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen3{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen4{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen5{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen6{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen7{
+        width: 48%;
+    }
+
+    .contenedorImagenes .imagen8{
+        width: 48%;
+    }
+    .contenedorImagenes .imagen9{
+        width: 48%;
+    }
+}
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(57, 51, 51);
+    font-size: 18px;
+    font-weight:lighter;
+    text-size-adjust: 100%;
+    padding: 9px;
+  
+}
+
+.parrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    padding: 9px;
+  
+}
+
+.parrafo3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    padding: 9px;
+  
+}
